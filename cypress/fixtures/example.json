@@ -1,0 +1,6 @@
+{
+  "name": "Srimalee Sonna",
+  "gender": "Female",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "productName":["iphone X","Nokia Edge"]
+}
