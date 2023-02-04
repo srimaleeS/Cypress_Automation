@@ -34,6 +34,14 @@ describe('My Sixth Test Suite', function () {
        homeP.getShopTab().click()
 
        const prodPage = new ProductsPage()
+       cy.selectProduct('Samsung Note 8')
+       cy.selectProduct("iphone X")
        prodPage.getCheckoutButton().click()
+       prodPage.getConfirmCheckoutBtn().click()
+       prodPage.getLocationTxt().type("Srilanka")
+       //defaultCommandTimeout:4000 can be overridden in cypress.json config file, to be used globally
+       //for a single test (explicit timeout) it can be added as below, has to be added in cypress.json as well to override default config
+       Cypress.config('defaultCommandTimeout',8000)
+       prodPage.getLocationSuggestion().click()
     })
 })
