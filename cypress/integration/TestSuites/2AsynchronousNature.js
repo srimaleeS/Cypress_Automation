@@ -24,21 +24,8 @@ describe('My Second Test Suite', function () {
         //cy.get('button').click() cannot be used due to the app having many .button elements which are not in visible mode
         cy.contains('Place Order').click()
 
-
-
-
-
-
-
-
-
-
-
-
-        //fixture
+        //Fixtures
 
     })
-
-
 
 })
