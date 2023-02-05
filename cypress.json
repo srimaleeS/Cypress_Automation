@@ -1,4 +1,9 @@
 {
   "projectId": "8n1tdv",
-  "defaultCommandTimeout" : 6000
+  "defaultCommandTimeout": 6000,
+  "env": {
+    "url": "https://rahulshettyacademy.com",
+    "username": "Srimalee",
+    "password": "Test123"
+  }
 }
