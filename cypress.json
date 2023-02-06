@@ -1,9 +1,12 @@
 {
-  "projectId": "8n1tdv",
+  "projectId": "qck1iw",
   "defaultCommandTimeout": 6000,
   "env": {
     "url": "https://rahulshettyacademy.com",
     "username": "Srimalee",
-    "password": "Test123"
-  }
+    "password": "Test123" 
+  },
+  "retries":{
+    "runMode" : 1
+  } 
 }

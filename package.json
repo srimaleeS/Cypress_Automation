@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "test2": "node_modules\\.bin\\cypress run",
+    "headedTest": "npm run test2 -- --headed",
+    "chromeTest" : "npm run test2 -- -- browser chrome"    
   },
   "author": "Srimalee Sonnadara",
   "license": "ISC",
