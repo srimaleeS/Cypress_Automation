@@ -8,12 +8,13 @@
     "cy:run": "cypress run",
     "test2": "node_modules\\.bin\\cypress run",
     "headedTest": "npm run test2 -- --headed",
-    "chromeTest" : "npm run test2 -- -- browser chrome"    
+    "chromeTest": "npm run test2 -- -- browser chrome"
   },
   "author": "Srimalee Sonnadara",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^7.2.0",
-    "cypress-iframe": "^1.0.1"
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^7.1.3"
   }
 }
