@@ -1,10 +1,6 @@
 pipeline{
     agent any
 
-    environment {
-        LC_ALL = 'en_US.UTF-8'
-    }
-
     parameters{
         string(name:'SPEC', defaultValue:"cypress/integration/**/**", description: "Enter script path to be executed")
         choice(name: 'BROWSER', choices : ['chrome', 'edge','firefox'], description: "Select browser for execution")
@@ -22,7 +18,7 @@ pipeline{
         }
         stage('Testing'){
             steps{
-                bat "npm i"
+                bat "npm i" 
                 bat "npx cypress run --browser ${BROWSER} --spec ${SPEC}"
             }
         }
