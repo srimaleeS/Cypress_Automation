@@ -13,7 +13,8 @@
   "author": "Srimalee Sonnadara",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.2.0",
+    "cypress": "^10.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-iframe": "^1.0.1",
     "mochawesome": "^7.1.3"
   }

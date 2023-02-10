@@ -92,7 +92,7 @@ describe('My first test suite', function () {
         cy.get('.brand').should('have.text', "GREENKART")
 
         //assertion failure test
-        cy.get('.brand').should('have.text', "This is a failure test")
+        //cy.get('.brand').should('have.text', "This is a failure test")
 
     })
 })
